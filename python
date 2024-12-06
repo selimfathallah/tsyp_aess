@@ -11,7 +11,6 @@ Return cv2.fastNlMeansDenoising(image, None, 30, 7, 21)
 Def fuse_sensors(sar_image, multispectral_image):
 Return np.mean([sar_image, multispectral_image], axis=0)
 
-
 From skimage import exposure
 Import rasterio
 From rasterio.enums import Resampling
